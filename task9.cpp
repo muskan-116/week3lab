@@ -1,0 +1,50 @@
+#include <iostream>
+using namespace std;
+main()
+{
+int number1;
+int number2;
+int number3;
+int number4;
+int number5;
+int number6;
+int number7;
+int number8;
+int number9;
+int number10;
+int Add;
+int Mul;
+int Sub;
+int Div;
+float result;
+cout<<"enter first number: ";
+cin>>number1;
+cout<<"enter second number: ";
+cin>>number2;
+cout<<"enter third number: ";
+cin>>number3;
+cout<<"enter fourth number: ";
+cin>>number4;
+cout<<"enter fift number: ";
+cin>>number5;
+cout<<"enter sixth number: ";
+cin>>number6;
+cout<<"enter seventh number: ";
+cin>>number7;
+cout<<"enter eight number: ";
+cin>>number8;
+cout<<"enter nine number: ";
+cin>>number9;
+cout<<"enter ten number: ";
+cin>>number10;
+Add=number1+number3+number5;
+cout<<"Add: "<<Add;
+Mul=number7*number10*number6;
+cout<<"Mul: "<<Mul;
+Sub=number2-number1;
+cout<<"Sub: "<<Sub;
+Div=number8/number4;
+cout<<"Div: "<<Div;
+result=Add+Mul+Sub+Div;
+cout<<"result: "<<result;
+}
